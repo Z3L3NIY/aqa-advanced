@@ -7,8 +7,7 @@ async function getTodo() {
         const data = await response.json();
         return data;
     } catch (error) {
-        console.error('Error:', error);
-        throw error;
+        console.error(error);
     }
 }
 
@@ -21,8 +20,7 @@ async function getUser() {
         const data = await response.json();
         return data;
     } catch (error) {
-        console.error('Error:', error);
-        throw error;
+        console.error(error);
     }
 }
 
