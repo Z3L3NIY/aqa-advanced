@@ -1,16 +1,13 @@
 function checkOrder(available, ordered) {
-    if(ordered > available && available >= 0) {
-        return "Your order is too large, we don’t have enough goods.";
-    }
-    else if (ordered === 0  && available >= 0) {
-        return "Your order is empty.";
-    }
-    else if (ordered <= available && ordered > 0) {
-        return "Your order is accepted.";
-    }
-    else {
-        return "Invalid data.";
-    }
+	if (ordered > available && available >= 0) {
+		return "Your order is too large, we don’t have enough goods.";
+	} else if (ordered === 0 && available >= 0) {
+		return "Your order is empty.";
+	} else if (ordered <= available && ordered > 0) {
+		return "Your order is accepted.";
+	} else {
+		return "Invalid data.";
+	}
 }
 
 console.log(`available: -20, ordered: -30 - ${checkOrder(-20, -30)}`);

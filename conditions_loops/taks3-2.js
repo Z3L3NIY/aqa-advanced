@@ -3,7 +3,7 @@ let result = 0;
 let count = 1;
 
 while (count <= 10) {
-    result = number * count;
-    console.log(`${number} x ${count} = ${result}`);
-    count++;
+	result = number * count;
+	console.log(`${number} x ${count} = ${result}`);
+	count++;
 }

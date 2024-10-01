@@ -1,8 +1,8 @@
 function isAdult(age) {
-    if(age >= 18) {
-        return true;
-    }
-    return false;
+	if (age >= 18) {
+		return true;
+	}
+	return false;
 }
 
 let age1 = 25;
